@@ -49,7 +49,7 @@ except BulkQRError as e:
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
 ```
-
+### (If request gets timeout then,wait for 1-2 min and again try)
 
 ## 🛡️ Error Handling
 bulk-qr-client maps API responses and network conditions directly to clean, descriptive Python exceptions so you can handle failures gracefully in production environments:
