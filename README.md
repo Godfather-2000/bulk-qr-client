@@ -7,7 +7,7 @@ A lightweight, production-ready Python SDK for generating print-ready bulk QR co
 ### 1. Installation
 Install the package using pip:
 ```python
-pip install bulk-qr-client
+pip install git+https://github.com/Godfather-2000/bulk-qr-client.git@main
 ```
 ### 2. Generate Labels
 Here is how simple it is to generate and save a professional label PDF directly from your Python script:
