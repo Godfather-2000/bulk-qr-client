@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bulk-qr-client"
+version = "0.1.0"
+description = "A lightweight Python SDK for generating bulk QR code labels via API."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Godfather-2000" }
+]
+dependencies = [
+    "requests>=2.28.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Godfather-2000/bulk-qr-client"
