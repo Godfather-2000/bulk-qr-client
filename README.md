@@ -49,7 +49,7 @@ except BulkQRError as e:
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
 ```
-### (If request gets timeout then,wait for 1-2 min and again try)
+### (If request gets timeout then,wait for 1-2 min and again try)  <a href="https://stats.uptimerobot.com/V8WOukGreR?utm_source=status_badge&utm_medium=referral" target="_blank" rel="noopener"><picture><source media="(prefers-color-scheme: dark)" srcset="https://badge.uptimerobot.com/psp/be3bae25c4874d257233e114769bac73.svg?style=logo&theme=dark"><img src="https://badge.uptimerobot.com/psp/be3bae25c4874d257233e114769bac73.svg?style=logo&theme=light" alt="bulk-qr-API live"></picture></a>
 
 ## 🛡️ Error Handling
 bulk-qr-client maps API responses and network conditions directly to clean, descriptive Python exceptions so you can handle failures gracefully in production environments:
